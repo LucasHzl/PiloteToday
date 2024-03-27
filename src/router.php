@@ -4,13 +4,14 @@ $homeController = new HomeController();
 $carsController = new CarsController();
 $racetrackController = new RacetrackController();
 $reservationsController = new ReservationsController();
-$AuthController = new AuthController();
+//$AuthController = new AuthController();
 $notFoundController = new NotFoundController();
 
 
 switch ($highway) {
-        case HOME_PAGE:
-            $homeController->indexPage();
+        case HOME_PAGE1:
+        case HOME_PAGE2:
+            $homeController->index();
         break;
 
         case CARS_PAGE:

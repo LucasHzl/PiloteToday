@@ -1,7 +1,3 @@
-<?php
-require_once __DIR__.'/../src/init.php';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 

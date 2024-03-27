@@ -11,9 +11,10 @@ define("DATABASE_PASSWORD", "root");
 
 //Highways to pages global variables
 define("BASE_URL", "/projets/pilotetoday/public");
-define("HOME_PAGE", BASE_URL . "/accueil");
-define("CARS_PAGE", BASE_URL . "/voitures");
-define("RACETRACK_PAGE", BASE_URL . "/circuit");
+define("HOME_PAGE1", BASE_URL . "/");
+define("HOME_PAGE2", BASE_URL . "/accueil");
+define("CARS_PAGE", BASE_URL . "/cars");
+define("RACETRACK_PAGE", BASE_URL . "/racetrack");
 define("RESERVATION_PAGE", BASE_URL . "/reservation");
 define("SIGNUP_PAGE", BASE_URL . "/inscription");
 define("SIGNIN_PAGE", BASE_URL . "/connexion");

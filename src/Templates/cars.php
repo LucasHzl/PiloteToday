@@ -1,3 +1,7 @@
+<?php
+print_r($cars);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +14,7 @@
 
 <body>
     <header>
-        <a href="index.php">
+        <a href="accueil">
             <h1>PiloteToday</h1>
         </a>
         <a href="signIn.php">
