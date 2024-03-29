@@ -74,6 +74,10 @@ header > a {
     width: 100%;
     height: 100%;
     background-color: #474747;
+    background-image: url(./../assets/banner.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #bookingContainer {
@@ -82,12 +86,15 @@ header > a {
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    color: white;
+    color: black;
     margin-top: 120px;
 }
 
-h2 {
+#bookingContainer > h2 {
     font-size: 1.5rem;
+    background-color: #F9F9F9;
+    padding: 3px;
+    border-radius: 2px;
 }
 
 #bookingButton {
@@ -147,12 +154,20 @@ h2 {
     height: 300px;
     width: 400px;
     background-color: #474747;
+    background-image: url(./../assets/racetrackIndex.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #cars {
     height: 300px;
     width: 400px;
     background-color: #474747;
+    background-image: url(./../assets/carIndex.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #text {
@@ -162,9 +177,13 @@ h2 {
 /********************************FOOTER********************************/
 
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #FD151B;
     width: 100%;
     height: 80px;
+    color: white;
 }
 
 /******************************RACETRACK*******************************/
@@ -173,6 +192,10 @@ footer {
     height: 450px;
     width: 900px;
     background-color: #474747;
+    background-image: url(./../assets/racetrack.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /********************************SIGN IN*******************************/
@@ -206,6 +229,7 @@ footer {
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    padding: 20px;
 }
 
 .emailInput {
@@ -219,6 +243,26 @@ input {
     height: 30px;
     border: 1px solid lightgray;
     background-color: #F9F9F9;
+}
+
+#registerForm {
+}
+
+#registerSubmit {
+    width: 120px;
+    height: 40px;
+    background-color: #FD151B;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+
+#registerSubmit:hover {
+    background-color: #474747;
 }
 
 /*****************************REGISTER FORM****************************/

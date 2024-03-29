@@ -1,6 +1,4 @@
-<?php
-print_r($cars);
-?>
+<?php print_r($users) ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +7,7 @@ print_r($cars);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>PiloteToday - Nos voitures</title>
+    <title>PiloteToday - Mon compte</title>
 </head>
 
 <body>
@@ -23,25 +21,20 @@ print_r($cars);
     </header>
     <section id="topInfo">
         <div id="banner">
-            <div id="bookingContainer">
-                <h2>Réservez votre journée sur-mesure !</h2>
-                <a href="reservation">
-                    <button id="bookingButton"
-                type="button">Go Go Go</button>
-                </a>
-            </div>
         </div>
         <div id="contact">
             <h3>Nous contacter : pilotetoday@gmail.com</h3>
         </div>
     </section>
     <section id="homeContent">
-        <h2>Nos voitures de course</h2>
-        <div id="containerCards">
-                <div id="racetrack"></div>
-                <div id="racetrack"></div>
-                <div id="racetrack"></div>
-                <div id="racetrack"></div>
+        <h2>Mon compte</h2>
+        <div id="personalInfos">
+            <p>Prénom :</p>
+            <p>Nom :</p>
+            <p>Email :</p>
+        </div>
+        <div id="myReservation">
+            <p>Mes réservations :</p>
         </div>
     </section>
     <footer>

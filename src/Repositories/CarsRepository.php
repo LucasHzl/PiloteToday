@@ -15,4 +15,28 @@ class CarsRepository extends Database {
 
         return $cars;
     } 
+
+    public function createCar($brand, $model)
+    {
+        $query = 'INSERT INTO cars (brand, model) 
+        VALUES (:brand, :model)';
+
+        $req = $this->getDb()->prepare($query);
+
+        $req->execute([
+            'brand' => $brand,
+            'model' => $model
+        ]);
+    }
+
+    public function deleteCar($id_car)
+    {
+        $query = 'DELETE FROM cars WHERE iid_card = :id_car';
+
+        $req = $this->getDb()->prepare($query);
+
+        $req->execute([
+            'id_car' => $id_car
+        ]);
+    }
 }

@@ -10,10 +10,10 @@
 
 <body>
     <header>
-        <a href="index.php">
+        <a href="accueil">
             <h1>PiloteToday</h1>
         </a>
-        <a href="signIn.php">
+        <a href="connexion">
             <button type="button" id="signInButton">Connexion</button>
         </a>
     </header>
@@ -21,7 +21,7 @@
         <div id="banner">
             <div id="bookingContainer">
                 <h2>Réservez votre journée sur-mesure !</h2>
-                <a href="bookingForm.php">
+                <a href="reservation">
                     <button id="bookingButton"
                 type="button">Go Go Go</button>
                 </a>
@@ -38,29 +38,29 @@
         </div>
         <div id="text">
             <p>
-                <strong>l'Adrénaline sur Circuit !</strong>
-                <br>Préparez-vous pour une expérience unique de conduite sur circuit. Nos voitures de course puissantes et nos circuits sélectionnés avec soin vous offrent des sensations fortes inoubliables.
+                <strong>Découvrez l'Ultime Défi Automobile : Le Circuit du Nürburgring, l'Enfer Vert !</strong>
+                <br>Entrez dans le royaume de la vitesse et de l'audace, où seuls les plus braves osent s'aventurer. Le légendaire Nürburgring, surnommé l'Enfer Vert, est bien plus qu'un simple circuit ; c'est un temple sacré de la course automobile, où chaque virage raconte une histoire de courage et de passion.
             </p>
             <p>
-                <strong>Des Voitures de Course Puissantes et Élégantes</strong>
-                <br>Nos voitures de course, puissantes et élégantes, sont prêtes à rugir sous vos doigts. Elles vous attendent, impatientes de vous faire découvrir leurs capacités et de vous offrir des sensations inoubliables.
+                <strong>Un Circuit Mythique, Symbole de Défis Incommensurables</strong>
+                <br>Parcourez les 20,8 kilomètres de ce monstre de bitume, où chaque mètre représente un défi à relever. Du sinueux Nordschleife aux lignes droites de la modernité, le Nürburgring offre un terrain de jeu exigeant, impitoyable et captivant.
             </p>
             <p>
-                <strong>Journée de Passion et de Partage</strong> 
-                <br>Rejoignez notre communauté de passionnés et partagez avec nous l'amour de la course automobile. Que vous soyez débutant ou expérimenté, notre équipe de professionnels vous accompagne pour une journée riche en émotions.
+                <strong>L'Héritage de la Course Automobile</strong> 
+                <br>Depuis sa création en 1927, le Nürburgring a accueilli les plus grands noms de la course automobile. Des légendes ont forgé leur réputation sur cette piste exigeante, défiant les limites de la vitesse et de l'endurance. Aujourd'hui encore, cet héritage perdure, imprégnant chaque tour de roue d'une aura de grandeur et de bravoure.
             </p>
             <p>
-                <strong>Écrivez Votre Propre Histoire</strong>
-                <br>Parce que chez nous, chaque journée sur circuit est une nouvelle aventure, une nouvelle histoire à écrire. Et nous sommes impatients de vous aider à écrire la vôtre.
+                <strong>Un Défi Technique et Menta</strong>
+                <br>Naviguer à travers les virages serrés, plonger dans les dénivelés vertigineux, affronter les changements météorologiques subits : piloter sur le Nürburgring demande une maîtrise totale de soi et de son bolide. Chaque pilote devient un héros moderne, défiant l'Enfer Vert avec courage et détermination.
             </p>
             <p>
-                <strong>Réservez Maintenant !</strong>
-                <br>N'attendez plus, rejoignez-nous pour une journée de passion, d'adrénaline et de plaisir sur circuit. Réservez dès maintenant et laissez-vous séduire par l'expérience unique que nous vous proposons.
+                <strong>Vivez l'Expérience Unique du Nürburgring</strong>
+                <br>Que vous soyez un amateur de sensations fortes ou un pilote chevronné, le Nürburgring offre une expérience inégalée. Venez affronter ce défi ultime, ressentez l'adrénaline pulser dans vos veines et laissez-vous emporter par la magie de l'Enfer Vert. Le circuit du Nürburgring vous attend, prêt à vous défier et à vous inspirer comme jamais auparavant. Êtes-vous prêt à relever le défi ?
             </p>
         </div>
     </section>
     <footer>
-
+        <p>PiloteToday - Tous droits réservés</p>
     </footer>
 </body>
 </html>

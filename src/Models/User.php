@@ -1,11 +1,11 @@
 <?php
 
 class User {
-    private $id_user;
-    private $firstName;
-    private $lastName;
-    private $email;
-    private $password;
+    public $id_user;
+    public $firstName;
+    public $lastName;
+    public $email;
+    public $password;
 
     public function getId_user() {
       return $this->id_user;

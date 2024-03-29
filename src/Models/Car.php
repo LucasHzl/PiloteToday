@@ -1,9 +1,9 @@
 <?php
 
 class Car {
-    private $id_car;
-    private $brand;
-    private $model;
+    public $id_car;
+    public $brand;
+    public $model;
 
 
     public function getId_car() {

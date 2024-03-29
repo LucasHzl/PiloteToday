@@ -10,10 +10,10 @@
 
 <body>
     <header>
-        <a href="index.php">
+        <a href="accueil">
             <h1>PiloteToday</h1>
         </a>
-        <a href="signIn.php">
+        <a href="connexion">
             <button type="button" id="signInButton">Connexion</button>
         </a>
     </header>
@@ -21,7 +21,7 @@
         <div id="banner">
             <div id="bookingContainer">
                 <h2>Réservez votre journée sur-mesure !</h2>
-                <a href="bookingForm.php">
+                <a href="reservation">
                     <button id="bookingButton"
                 type="button">Go Go Go</button>
                 </a>
@@ -34,10 +34,10 @@
     <section id="homeContent">
         <h2>La réelle expérience de conduite</h2>
         <div id="containerCards">
-            <a href="./racetrack.php">
+            <a href="./racetrack">
                 <div id="racetrack"></div>
             </a>
-            <a href="./cars.php">
+            <a href="./cars">
                 <div id="cars"></div>
             </a>
         </div>
@@ -65,7 +65,7 @@
         </div>
     </section>
     <footer>
-
+        <p>PiloteToday - Tous droits réservés</p>
     </footer>
 </body>
 </html>

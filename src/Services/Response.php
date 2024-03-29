@@ -11,4 +11,14 @@ trait Response
 
         require_once __DIR__.'/../Templates/'.$template.'.php';
     }
+
+    function pr($that, $exit = true) {
+        echo '<pre>';
+        print_r($that);
+        echo '</pre>';
+        
+        if ($exit) {
+            exit;
+        }
+    }
 }

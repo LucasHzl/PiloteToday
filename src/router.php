@@ -4,8 +4,9 @@ $homeController = new HomeController();
 $carsController = new CarsController();
 $racetrackController = new RacetrackController();
 $reservationsController = new ReservationsController();
-//$AuthController = new AuthController();
 $notFoundController = new NotFoundController();
+$UsersController = new UsersController();
+
 
 
 switch ($highway) {
@@ -26,12 +27,19 @@ switch ($highway) {
             $reservationsController->reservationPage();
         break;
 
-        case SIGNUP_PAGE:
-            $AuthController->signUpPage();
+        case SIGNIN_PAGE:
+            $UsersController->signInPage();
+            if($_SERVER["REQUEST_METHOD"] === "GET") {
+
+            }
+
+            else if($_SERVER["REQUEST_METHOD"] === "POST") {
+                $UsersController->addUser();
+        }
         break;
 
-        case SIGNIN_PAGE:
-            $AuthController->signInPage();
+        case PROFIL_PAGE:
+            $UsersController->profilPage();
         break;
     
         default:

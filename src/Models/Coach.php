@@ -1,9 +1,9 @@
 <?php
 
 class Coach {
-    private $id_coach;
-    private $firstName;
-    private $lastName;
+    public $id_coach;
+    public $firstName;
+    public $lastName;
 
     public function getId_coach() {
       return $this->id_coach;

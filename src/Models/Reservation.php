@@ -1,10 +1,10 @@
 <?php
 
 class Reservation {
-    private $id_reservation;
-    private $id_user;
-    private $id_coach;
-    private $date;
+    public $id_reservation;
+    public $id_user;
+    public $id_coach;
+    public $date;
 
     public function getId_reservation() {
       return $this->id_reservation;
