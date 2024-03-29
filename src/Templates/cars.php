@@ -1,7 +1,3 @@
-<?php
-print_r($cars);
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -38,10 +34,10 @@ print_r($cars);
     <section id="homeContent">
         <h2>Nos voitures de course</h2>
         <div id="containerCards">
-                <div id="racetrack"></div>
-                <div id="racetrack"></div>
-                <div id="racetrack"></div>
-                <div id="racetrack"></div>
+            <div id="car1"></div>
+            <div id="car2"></div>
+            <div id="car3"></div>
+            <div id="car4"></div>
         </div>
     </section>
     <footer>

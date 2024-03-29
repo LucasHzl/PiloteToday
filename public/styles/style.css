@@ -198,6 +198,28 @@ footer {
     background-size: cover;
 }
 
+/*********************************CARS*********************************/
+#car1, #car2, #car3, #car4 {
+    height: 300px;
+    width: 400px;
+    background-color: #474747;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#car1 {
+    background-image: url(./../assets/bmw.jpeg);
+}
+#car2 {
+    background-image: url(./../assets/mclaren.jpeg);
+}
+#car3 {
+    background-image: url(./../assets/ford.jpeg);
+}
+#car4 {
+    background-image: url(./../assets/porsche.jpeg);
+}
 /********************************SIGN IN*******************************/
 
 #signInBody {

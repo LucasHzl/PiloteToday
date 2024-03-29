@@ -1,5 +1,3 @@
-<?php print_r($users) ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,9 +27,15 @@
     <section id="homeContent">
         <h2>Mon compte</h2>
         <div id="personalInfos">
-            <p>Prénom :</p>
-            <p>Nom :</p>
-            <p>Email :</p>
+            <?php
+            foreach ($users as $user) {
+                echo'<p>Prénom : '.$user->firstName.'</p>';
+                echo'<p>Nom : '.$user->lastName.'</p>';
+                echo'<p>email : '.$user->email.'</p>';
+                echo'<br>';
+                echo'<br>';
+            }
+            ?>
         </div>
         <div id="myReservation">
             <p>Mes réservations :</p>
