@@ -20,8 +20,8 @@ class UsersController {
     }
 
     public function addUser() {
-        print_r("addUser");
         $this->usersRepository->createUser($_POST["firstName"], $_POST["lastName"], $_POST["email"], $_POST["password"]);
+        echo'Votre inscription a bien été prise en compte !';
     }
 
 

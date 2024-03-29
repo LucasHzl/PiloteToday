@@ -35,7 +35,7 @@ switch ($highway) {
 
             else if($_SERVER["REQUEST_METHOD"] === "POST") {
                 $UsersController->addUser();
-        }
+            }
         break;
 
         case PROFIL_PAGE:

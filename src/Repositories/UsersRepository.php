@@ -55,6 +55,19 @@ public function getAllUsers() {
         return $req->fetch();
     }
 
+    public function findUserByEmail($UserEmail)
+    {
+        $req = $this->getDb()->prepare('SELECT * FROM users WHERE email = :email');
+
+        $req->execute([
+            'email' => $UserEmail
+        ]);
+
+        $req->setFetchMode(PDO::FETCH_CLASS, User::class);
+
+        return $req->fetch();
+    }
+
     public function createUser($firstName, $lastName, $email, $password)
     {
         $query = 'INSERT INTO users (firstName, lastName, email, password) 
