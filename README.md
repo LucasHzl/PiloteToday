@@ -1,0 +1,7 @@
+Malheureusement, ma compréhension (lente) de l'architecture MVC a eu raison de la finalité de mon brief, et j'en suis sincèrement désolé. 
+Néanmoins, bien que certaines fonctionalités soient manquantes, la structure a été mise en place et le pojet fonctionne :
+
+- Lors de l'enregistrement, l'utilisateur est correctement inscrit en base de données.
+- Le système de réservation récupère correctement les informations depuis la base de données.
+- L'architecture MVC est en place et le système fonctionne avec la PDO.
+- Les vues sont affichées grâce au trait.
